@@ -1,0 +1,64 @@
+var list = ["j", "k", "y"]; 
+
+var languages = ["HTML", "CSS", "JavaScript", "Python", "Ruby"];
+
+console.log(languages[2]);
+
+var languages = ["HTML", "CSS", "JavaScript", "Python", "Ruby"];
+
+console.log(languages[2]);
+console.log(languages.length); 
+
+var languages = ["HTML", "CSS", "JavaScript", "Python", "Ruby"];
+
+for (var i = 0; i <  languages.length; i++){
+    console.log(languages[i]); 
+} 
+
+var myArray = [1, true, "we"]; 
+
+
+var newArray  = [[1, 1, 1 ], [1, 1,1],[1, 1,1]]; 
+
+var jagged = [[1,2],[3]];
+
+var phonebookEntry = {};
+
+phonebookEntry.name = 'Oxnard Montalvo';
+phonebookEntry.number = '(555) 555-5555';
+phonebookEntry.phone = function() {
+  console.log('Calling ' + this.name + ' at ' + this.number + '...');
+};
+
+phonebookEntry.phone();
+
+var me = {};
+
+me.name = 'Oxnard';
+me.age = 12;
+
+var myObj = new Object();
+
+
+var object1 = {};
+
+object1.name = 'Oxnard';
+object1.age = 12;
+
+var object2 = {};
+
+object2.name = 'Oxnard';
+object2.age = 12;
+
+var object3 = {};
+
+object3.name = 'Oxnard';
+object3.age = 12;
+
+var myObj = {
+name: 'sara',
+age: 34,
+bool: true,
+clas: 12
+};
+myArray = [3, true, 'sara', myObj];

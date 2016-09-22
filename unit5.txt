@@ -1,0 +1,120 @@
+var isEven = function(number) {
+  // Your code goes here!
+  if(number% 2 === 0) {
+      return true; 
+  } 
+  else{ 
+      return false; 
+  } 
+  
+};
+
+var isEven = function(number) {
+  // Your code goes here!
+  if (isNaN(number)){ 
+      return "this is not a number" ; 
+  } 
+  else if(number% 2 === 0) {
+      return true; 
+  } 
+  else{ 
+      return false; 
+  } 
+  
+};
+
+// Write your loop below!
+for ( var i = 0; i < 10; i ++){ 
+    console.log(i); 
+} 
+
+
+var lunch = prompt("What do you want for lunch?","Type your lunch choice here");
+
+switch(lunch){
+  case 'sandwich':
+    console.log("Sure thing! One sandwich, coming up.");
+    break;
+  case 'soup':
+    console.log("Got it! Tomato's my favorite.");
+    break;
+  case 'salad':
+    console.log("Sounds good! How about a caesar salad?");
+    break;
+  case 'pie':
+    console.log("Pie's not a meal!");
+    break;
+  default:
+    console.log("Huh! I'm not sure what " + lunch + " is. How does a sandwich sound?");
+}
+
+var color = prompt("What's your favorite primary color?","Type your favorite color here");
+
+switch(color) {
+  case 'red':
+    console.log("Red's a good color!");
+    break;
+  case 'blue':
+    console.log("That's my favorite color, too!");
+    break;
+  //Add your case here!
+  case 'yellow': 
+      console.log("bumble bee"); 
+      break; 
+  
+  default:
+    console.log("I don't think that's a primary color!");
+}
+
+var candy = prompt("What's your favorite candy?","Type your favorite candy here.");
+
+switch(candy) {
+  case 'licorice':
+    console.log("Gross!");
+    break;
+  case 'gum':
+    console.log("I like gum!");
+    break;
+  case 'beets':
+    console.log("...is that even a candy?");
+    break;
+  // Add your code here!
+  default:
+    console.log ("I don't like candy anyway"); 
+    break; 
+}
+
+var answer = prompt("what's your fav animal? ");
+
+switch(answer) {
+  case 'cat':
+    console.log("me too");
+    break;
+  // Add your code here!
+  case 'dog': 
+      console.log("awww~ "); 
+      break; 
+  default:
+    console.log("Why not?"); 
+    break ; 
+}
+
+// Write your code below!
+var age = prompt("How old are you ?");
+
+switch(age){
+  case '15':
+    console.log("you are under age");
+    break;
+  case '25':
+    console.log("we are the same age.");
+    break;
+    case '60':
+        console.log("you are much old than me"); 
+        break; 
+
+  default:
+    console.log("you don't know your own age? ");
+}
+
+

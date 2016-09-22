@@ -1,0 +1,105 @@
+var coinFace = Math.floor(Math.random() * 2);
+
+while(coinFace === 0){
+	console.log("Heads! Flipping again...");
+	var coinFace = Math.floor(Math.random() * 2);
+}
+console.log("Tails! Done flipping.");
+
+var understand = true;
+
+while(understand == true  ){
+	console.log("I'm learning while loops!");
+	understand = false;
+}
+
+understand = true;
+
+while(understand){
+	console.log("I'm learning while loops!");
+	//Change the value of 'understand' here!
+	understand = false; 
+	
+}
+
+var bool = true;
+
+while(bool){
+    console.log("Less is more!");
+    bool = false;
+}
+
+//Remember to set your condition outside the loop!
+
+
+var loop = function(){
+    var count = 0 
+	while(count < 3 ){
+		//Your code goes here!
+		console.log("I'm looping!"); 
+		count ++ ; 
+	}
+};
+
+loop();
+
+//Remember to make your condition true outside the loop!
+ var value = true;
+var soloLoop = function(){
+  //Your code goes here!
+  
+  while(value){ 
+    console.log("Looped once!"); 
+    value = false; 
+  }
+   
+}
+
+soloLoop();
+
+var i = 0; 
+while (i< 5){ 
+    console.log(i); 
+    i ++; 
+} 
+
+for (var i = 1; i < 5 ; i++) {
+    console.log(i);
+}
+
+var loopCondition = false;
+
+do {
+	console.log("I'm gonna stop looping 'cause my condition is " + loopCondition + "!");	
+} while (loopCondition);
+
+var lab = false; 
+var getToDaChoppa = function(){
+  // Write your do/while loop here!
+ do {
+     console.log("Hello");
+ } while (lab);
+}
+
+getToDaChoppa();
+
+
+// Write your code below!
+for (var i = 1; i < 11; i++) {
+    console.log(i);
+}
+
+var condition = true;
+while(condition) {
+    console.log("Hello!");
+
+    condition = false;
+}
+
+
+
+var condition = false;
+do {
+    console.log("I'm printed once!");
+} while(condition) 
+
